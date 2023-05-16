@@ -33,7 +33,7 @@ body {
   }
   
   .hero {
-    background-image: url("ảnh/backroom.jpg");  
+    background-image: url("ảnh/backroom.jpg");
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -43,8 +43,8 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
-  }
-  
+    opacity: 0.7;
+    }
   
   .hero h1 {
   font-size: 4rem;
@@ -160,3 +160,20 @@ body {
   font-weight: bold;
   color: #333;
   }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .hotro{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #666;
+  }
+@media (max-width: 767px) {
+  .col-md {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+}
